@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ alum.name }}'s Profile</h1>
+<p>Graduated in {{ alum.year_of_graduation }}</p>
+<p>Works in {{ alum.current_industry_position }}</p>
+<p>Hall of Residence: {{ alum.hall_of_residence }}</p>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Alumni List</h1>
+<ul>
+    {% for alum in alumni %}
+    <li>{{ alum.name }} - {{ alum.year_of_graduation }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
